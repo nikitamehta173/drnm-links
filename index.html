@@ -79,6 +79,10 @@ section { padding-block: 72px 0; }
 .card h3 { font-family: var(--sans); font-weight: 400; color: var(--maroon); font-size: 22px; margin: 0; }
 .card p { margin: 0; color: var(--muted); font-size: 17px; }
 
+/* Free guides: the PDF cover, shown whole (A4, never cropped) */
+.card .ph.a4 { aspect-ratio: 794 / 1123; box-shadow: 0 1px 0 var(--rule), 0 0 0 1px var(--rule); }
+.card .ph.a4 img { object-fit: contain; }
+
 /* Split panel, after the site's About page */
 .split { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); background: var(--stone); }
 .split .pic { position: relative; aspect-ratio: 4 / 5; max-width: 100%; overflow: hidden; }
@@ -192,6 +196,30 @@ footer .brand p { margin: 0; font-size: 15px; opacity: 0.8; }
       <h3>Instagram</h3>
       <p>Reels, cases and the everyday.</p>
       <span class="cta">follow along.</span>
+    </a>
+  </div>
+</section>
+
+<section class="wrap" aria-labelledby="guides">
+  <div class="sec-head"><h2 class="head" id="guides">Free guides</h2></div>
+  <div class="cards">
+    <a class="card" href="guides/before-you-change-your-smile.pdf" target="_blank" rel="noopener">
+      <div class="ph a4"><img src="images/guide-before-you-change-your-smile.jpg" alt="Cover of the free guide Before you change your smile" loading="lazy"></div>
+      <h3>Before you change your smile</h3>
+      <p>What I’d want you to know before you sit in anyone’s chair.</p>
+      <span class="cta">download the guide.</span>
+    </a>
+    <a class="card" href="guides/before-you-get-composite-bonding.pdf" target="_blank" rel="noopener">
+      <div class="ph a4"><img src="images/guide-before-you-get-composite-bonding.jpg" alt="Cover of the free guide Before you get composite bonding" loading="lazy"></div>
+      <h3>Before you get composite bonding</h3>
+      <p>What good bonding looks like, and the questions worth asking.</p>
+      <span class="cta">download the guide.</span>
+    </a>
+    <a class="card" href="guides/veneers-read-this-first.pdf" target="_blank" rel="noopener">
+      <div class="ph a4"><img src="images/guide-veneers-read-this-first.jpg" alt="Cover of the free guide Veneers: read this first" loading="lazy"></div>
+      <h3>Veneers: read this first</h3>
+      <p>Why I don’t do loads of veneers, and how to know if they’re right for you.</p>
+      <span class="cta">download the guide.</span>
     </a>
   </div>
 </section>
